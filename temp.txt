@@ -1,0 +1,16 @@
+#import climate_py
+import streamlit as st
+
+# Title
+st.title("Climate Predicted..")
+
+# Input Field
+user_input = st.text_input("Enter year:")
+
+# Output Field
+if user_input:
+    st.write("Estimated Tempreture:", user_input)
+else:
+    st.write("Enter something in the input field above.")
+
+# You can add more widgets and functionality as needed.
